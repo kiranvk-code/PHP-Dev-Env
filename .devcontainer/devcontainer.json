@@ -6,7 +6,11 @@
 	"image": "mcr.microsoft.com/devcontainers/php:0-8.2",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+		"ghcr.io/devcontainers/features/php:1": {}
+
+		
+	},
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -20,7 +24,7 @@
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [8000],
+	   "forwardPorts": [8000,8080],
 
 	// Use 'portsAttributes' to set default properties for specific forwarded ports. More info: https://code.visualstudio.com/docs/remote/devcontainerjson-reference.
 	"portsAttributes": {
