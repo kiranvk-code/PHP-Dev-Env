@@ -36,7 +36,3 @@ apache2ctl start
 ## Note
 
 - Commissioning your PHP Codespace might take a few minutes. Please be patient as the environment is being set up.
-
----
-
-This content should provide a clear and comprehensive guide for your students to follow in order to create new PHP files, start the Apache web server, and access the output of their PHP files in a browser within the GitHub Codespace environment.
