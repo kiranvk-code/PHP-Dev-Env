@@ -26,7 +26,7 @@ apache2ctl start
 2. Hover your mouse pointer over the "Forwarded Address" column corresponding to the "8080" port.
 3. Click on the "Open In Browser" option. This will open a new browser tab.
 ![Ports Section Screenshot](php_port_Forwarding.png)
-4. In the address bar of the new browser tab, the URL you see corresponds to the `localhost:8080` equivalent in your Codespace environment.![URL Screenshot](php_port_Forwarding.png)
+4. In the address bar of the new browser tab, the URL you see corresponds to the `localhost:8080` equivalent in your Codespace environment.![URL Screenshot](php_port_Forwarding_url.png)
 5. 6. To access other PHP files you have created, append the filename to the URL in the address bar.
    - Example: If your PHP file is named `hello.php`, modify the URL in the address bar to:
      ```plaintext
